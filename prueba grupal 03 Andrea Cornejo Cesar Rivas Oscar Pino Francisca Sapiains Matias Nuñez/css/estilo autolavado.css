@@ -1,0 +1,169 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  h2, h3, p{
+    color: white;
+  }
+  
+  /* Add a ligth background color and some padding to the footer */
+  footer {
+    background-color: rgb(1, 105, 105);
+    padding: 25px;
+    font-style: bold;
+    color: white;
+  }
+  
+.carousel-inner img {
+    width: 50%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;       
+  }
+}
+
+#prod{
+  width: max-content 150px; 
+  height: 150px;
+}
+#producto1, #producto2, #producto3 
+{
+  text-align: center;
+  border-style: solid;
+  border-color:#1abc9c75;
+  background-color: teal 
+}
+
+
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color:white;
+  border-collapse: collapse;
+
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+}
+#box{
+  border-style: solid;
+  border-color:#1abc9c75; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  padding: 20px;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#prod {
+  opacity: 1.0;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#prod:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* Header/logo Title */
+.header {
+  padding: 8px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color:white;
+  border-collapse: collapse;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  h2 
+  {
+      color: rgb(10, 77, 88);
+      font-weight: bold;
+  }
+  .box 
+  {
+    color: rgb(12, 99, 41);
+    font-size: 150%;
+    font-weight: bold;
+  }
+
+  .row:after
+  {
+      color: rgb(12, 99, 41);
+      font-size: 150%;
+      font-weight: bold; 
+  }
+}
+
+
+.carousel-control{
+  background-color: #1abc9c;
+}
+
+.button1 {
+  background-color: #1abc9ca6; 
+  color: white; 
+  border: 2px solid #1abc9c;
+}
+
+.button1:hover 
+{
+  background-color: #4cae4fa6;
+  color: white;
+}
+
+body{
+  background-color: white;
+}
+
+.logo
+{
+  height: 30px;
+}
+
+
