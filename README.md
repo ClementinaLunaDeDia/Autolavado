@@ -1,2 +1,2 @@
 # Autolavado
-Práctica de html con validaciones
+Práctica de FrontEnd con validaciones
